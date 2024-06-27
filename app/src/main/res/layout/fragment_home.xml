@@ -1,0 +1,168 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <!-- Título Principal -->
+    <TextView
+        android:id="@+id/titleGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guidance"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 1 -->
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover for Android\nDesign documentation and guidance."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/titleGallery"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 2 -->
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New platform design guidance to help you build for the Android platforms.\n\ndevelopers.android.com/design/ui\n\ngoo.gle/android-design"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Seção Material Design -->
+    <TextView
+        android:id="@+id/materialDesignTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material Design"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 3 -->
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material 3 is the latest version of Google’s open-source design system. Design and build beautiful, usable products with Material 3.\n\nMaterial.io"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/materialDesignTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 4 -->
+    <TextView
+        android:id="@+id/description4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Material 3 Design Kit provides a comprehensive introduction to the design system, with styles and components to help you get started.\n\nM3 Design Kit"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 5 -->
+    <TextView
+        android:id="@+id/description5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grids and insets\n\nThis kit utilizes Figma Layout grids to show common baseline column grid patterns.\n\nLayout insets communicate safe zone for gestural and edge-to-edge features."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Seção Layout Basics -->
+    <TextView
+        android:id="@+id/layoutBasicsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layout Basics"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 6 -->
+    <TextView
+        android:id="@+id/description6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android units\n\nAndroid relies on density-independent pixels (DPs and SPs).\n\nUtilize DPs when specifying layout measurements.\n\nUse SP to specify font measurements."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/layoutBasicsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 7 -->
+    <TextView
+        android:id="@+id/description7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System fonts\n\nRoboto is the primary Android system font. But through downloadable fonts, your app can have a customized font using Google Fonts. Google Fonts makes it easy to bring personality and performance to your websites and products.\n\nOur catalog of open-source fonts makes it easy to integrate expressive type and icons seamlessly no matter where you are in the world.\n\nfonts.google.com"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description6"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Descrição 8 -->
+    <TextView
+        android:id="@+id/description8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Icons\n\nMaterial Icons are available in five styles and a range of downloadable sizes and densities. The icons are crafted based on the core design principles and metrics of Material Design guidelines.\n\nThe icon stickersheet is regularly maintained and updates are published bi-weekly.\n\nfigma.com/@googlefonts"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description7"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Seção Theme -->
+    <TextView
+        android:id="@+id/themeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/description8"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
